@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#geth --datadir ./data --networkid 55661 --port 3002 --unlock a8623c299ac01bf95f7a58db98ce860b861bd6ae --ipcpath ./data/geth.ipc --jspath "./tmp" --exec 'loadScript("miner.js")' console
+geth --datadir ./data --networkid 55661 --port 3330 --unlock 1ee598156af1c6210d291e875273d9b462e3bf2c --ipcpath ./data/geth.ipc console
+#geth --datadir ./data --networkid 55661 --port 3002 --unlock a8623c299ac01bf95f7a58db98ce860b861bd6ae --ipcpath ./data/geth.ipc --jspath "./tmp" --exec 'loadScript("miner.js")'
+

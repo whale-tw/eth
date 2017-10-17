@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#geth --datadir ./data --networkid 55661 --ipcpath ./data/geth.ipc console
+
+#geth --datadir ./data --networkid 55661 --ipcpath ./data/geth.ipc --rpc 
+
+#geth --datadir ./data --networkid 58342 --rpc --rpcport 8545 --rpcaddr 127.0.0.1 --rpcapi "eth,net,web3" --nodiscover --port 3020 --rpccorsdomain "*" console
+
+geth --datadir ./data --networkid 55661 --rpc --rpcport 8545 --rpcaddr 127.0.0.1 --rpcapi "eth,net,web3,personal" --nodiscover --port 3020 --rpccorsdomain "*" console
+
+

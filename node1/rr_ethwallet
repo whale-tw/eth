@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ethereumwallet --rpc ./data/geth.ipc

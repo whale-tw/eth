@@ -1,0 +1,8 @@
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()
+clique.propose("0x2649f9c504d003e6450caff5c1cf7b0e8be67b6d",false)
+miner.start
+miner.start()
+miner.stop()

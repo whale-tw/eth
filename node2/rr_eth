@@ -1,0 +1,4 @@
+#!/bin/bash
+
+geth --datadir ./data --networkid 55661 --port 3001 --unlock ad7d1a9ae79aaf1d3ac4d1319b18c81c6f32ae37 --ipcpath ./data/geth.ipc console
+
